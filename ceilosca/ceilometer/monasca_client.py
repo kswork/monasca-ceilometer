@@ -107,8 +107,7 @@ class Client(object):
         kwargs = {
             'username': username,
             'password': password,
-            #'auth_url': auth_url.replace("v2.0", "v3"),
-            'auth_url':  auth_url + "/v3",
+            'auth_url': auth_url.replace("v2.0", "v3"),
             'project_id': project_id,
             'project_name': project_name,
             'region_name': conf.region_name,
